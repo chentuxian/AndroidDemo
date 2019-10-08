@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidDemo</string>
+    <string name="channel_name">通知</string>
+    <string name="channel_description">来自应用的通知信息</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.marcochan.androiddemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".google.debugger.DebuggerActivity"></activity>
+        <activity android:name=".google.intent.ImplicitIntentActivity" />
+        <activity android:name=".network.NetworkActivity" />
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".service.ServiceActivity" />
+        <activity android:name=".notification.NotificationActivity" />
+        <activity android:name=".activity.LifeActivity" />
+
+        <service android:name=".service.MyService" />
+        <service android:name=".service.MyIntentService" />
+    </application>
+
+</manifest>
