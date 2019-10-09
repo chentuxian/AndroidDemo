@@ -1,4 +1,4 @@
-package com.marcochan.androiddemo.google.debugger;
+package com.marcochan.androiddemo.google.one.debugger;
 
 import android.os.Bundle;
 import android.widget.Button;

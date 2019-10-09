@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
-    tools:context=".google.debugger.DebuggerActivity">
+    tools:context=".google.one.debugger.DebuggerActivity">
 
     <EditText
         android:inputType="numberDecimal"

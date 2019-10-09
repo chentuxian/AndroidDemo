@@ -12,8 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".google.debugger.DebuggerActivity"></activity>
-        <activity android:name=".google.intent.ImplicitIntentActivity" />
+        <activity android:name=".google.two.RecyclerViewActivity"></activity>
+        <activity android:name=".google.one.debugger.DebuggerActivity" />
+        <activity android:name=".google.one.intent.ImplicitIntentActivity" />
         <activity android:name=".network.NetworkActivity" />
         <activity android:name=".HomeActivity">
             <intent-filter>

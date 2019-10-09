@@ -5,8 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.marcochan.androiddemo.google.debugger.DebuggerActivity;
-import com.marcochan.androiddemo.google.intent.ImplicitIntentActivity;
+import com.marcochan.androiddemo.google.one.debugger.DebuggerActivity;
+import com.marcochan.androiddemo.google.one.intent.ImplicitIntentActivity;
 
 public class HomeActivity extends AppCompatActivity {
 

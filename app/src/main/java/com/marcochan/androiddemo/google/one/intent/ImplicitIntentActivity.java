@@ -1,4 +1,4 @@
-package com.marcochan.androiddemo.google.intent;
+package com.marcochan.androiddemo.google.one.intent;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ShareCompat;
