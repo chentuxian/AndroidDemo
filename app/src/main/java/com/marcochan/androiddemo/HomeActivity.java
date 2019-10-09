@@ -7,6 +7,7 @@ import android.os.Bundle;
 
 import com.marcochan.androiddemo.google.one.debugger.DebuggerActivity;
 import com.marcochan.androiddemo.google.one.intent.ImplicitIntentActivity;
+import com.marcochan.androiddemo.google.two.RecyclerViewActivity;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -17,7 +18,7 @@ public class HomeActivity extends AppCompatActivity {
 
         Intent intent = new Intent();
 
-        intent.setClass(this, DebuggerActivity.class);
+        intent.setClass(this, RecyclerViewActivity.class);
 
         startActivity(intent);
 

@@ -24,7 +24,7 @@ public class DebuggerActivity extends AppCompatActivity {
     @BindView(R.id.result_tv)
     TextView result_tv;
 
-    @BindView(R.id.add_btn)
+    @BindView(R.id.item_add_btn)
     Button add_btn;
 
     @BindView(R.id.sub_btn)
@@ -51,7 +51,7 @@ public class DebuggerActivity extends AppCompatActivity {
         return num;
     }
 
-    @OnClick(R.id.add_btn)
+    @OnClick(R.id.item_add_btn)
     public void addBtnClick() {
         double[] num = getNum();
         double result = num[0] + num[1];
